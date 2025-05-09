@@ -14,31 +14,6 @@ This repository presents a deep learning pipeline for melanoma classification, f
 
 ---
 
-## Repository Structure
-
-```
-
-melanoma-fair-xai/
-├── XAI-Classification/               # Classification and explainability
-│   ├── binary classification train.ipynb
-│   ├── testing XAI.ipynb
-│   └── fine tuning.ipynb
-│
-├── Diffusion-Based-Image-Generator/ # DDPM training and image sampling
-│   ├── DiffusionM\_training\_fromZero.ipynb
-│   ├── DiffusionM\_training\_fromLastCheckpoint.ipynb
-│   └── dermatological\_samples\_generator.ipynb
-│
-├── DATABASE/                        # Metadata and scripts (datasets not included)
-│   ├── ham10000\_metadata.csv
-│   └── helper scripts/
-│
-├── figures/                         # Grad-CAM visualizations, fidelity graphs, generated images
-├── requirements.txt
-└── README.md
-
-```
-
 ---
 
 ## Overview
@@ -83,16 +58,6 @@ Melanoma is a highly aggressive skin cancer, and early diagnosis is critical. Th
 **Directory Structure Required:**
 ```
 
-/MyDrive/DATABase/
-├── HAM10000\_images/
-├── ham10000\_metadata.csv
-├── trained\_diffusion\_model/
-└── Synthetic\_Melanocytic\_Control/
-
-````
-
----
-
 ## Installation and Requirements
 
 This project runs in Google Colab using GPU. Install the following packages:
@@ -103,18 +68,6 @@ pip install albumentations scikit-learn captum
 pip install matplotlib seaborn
 ````
 
----
-
-## Open in Google Colab
-
-| Notebook                      | Link                                                                                                                                                                      |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Classification Training       | [Open in Colab](https://colab.research.google.com/github/yourusername/melanoma-fair-xai/blob/main/XAI-Classification/binary%20classification%20train.ipynb)               |
-| Grad-CAM and Fidelity Testing | [Open in Colab](https://colab.research.google.com/github/yourusername/melanoma-fair-xai/blob/main/XAI-Classification/testing%20XAI.ipynb)                                 |
-| Diffusion Model Training      | [Open in Colab](https://colab.research.google.com/github/yourusername/melanoma-fair-xai/blob/main/Diffusion-Based-Image-Generator/DiffusionM_training_fromZero.ipynb)     |
-| Synthetic Image Generation    | [Open in Colab](https://colab.research.google.com/github/yourusername/melanoma-fair-xai/blob/main/Diffusion-Based-Image-Generator/dermatological_samples_generator.ipynb) |
-
-> Replace `yourusername` with your actual GitHub username
 
 ---
 
@@ -127,27 +80,12 @@ pip install matplotlib seaborn
 
 ---
 
-## Google Drive Resources
 
-All model weights, outputs, and additional materials are available at:
-[Google Drive Folder](https://drive.google.com/drive/folders/16gfyKjb4kzp3QcRdgFzr5S6uuCD7CMaK?usp=sharing)
-
----
 
 ## Authors
 
 * Anna Berdichevskaia ([annab4@mail.tau.ac.il](mailto:annab4@mail.tau.ac.il))
 * Waseem Bsharat ([wassemb@mail.tau.ac.il](mailto:wassemb@mail.tau.ac.il))
 
----
 
-## License
-
-This project is licensed under the MIT License.
-
-```
-
----
-
-Let me know your GitHub username so I can insert working Colab links. Would you also like a `requirements.txt` file generated from your code?
 ```
