@@ -1,8 +1,4 @@
-# melanoma-fair-xai
- Fair and Explainable Melanoma Diagnosis using ResNet Classifiers, Grad-CAM, and Diffusion Models.
-Understood. Here's your professional, emoji-free `README.md` for the root of your GitHub repository:
 
----
 
 ```markdown
 # Fair and Explainable Melanoma Diagnosis  
